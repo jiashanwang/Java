@@ -97,11 +97,11 @@ public class MybatisFirst {
 		// list 中的userh和映射文件中的resultTye中的类型时相同的
 		// 插入用户对象
 			User user = new User();
-			user.setId(102);
-			user.setUsername("王大川1");
+			user.setId(106);
+			user.setUsername("王真山");
 			user.setBirthday(new Date());
 			user.setSex("1");
-			user.setAddress("河南郑州331");
+			user.setAddress("湖北襄樊331222");
 		// list中的user和映射文件中resultType 所指定的类型一直
 			sqlSession.insert("test.insertUser", user);
 		
