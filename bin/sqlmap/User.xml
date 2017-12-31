@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 命名空间，作用就是对sql进行分类化管理，理解sql隔离
+	注意：使用namespace 代理方法开发，namespace 有特殊重要的作用
+ -->
+
+<mapper namespace="test">
+		<!--  在映射文件中配置很多sql 语句 
+			需求：通过id查询用户表的记录
+		-->
+		<!-- 通过select 执行数据库查询
+			id：标识映射文件中的sql ,将sql语句封装到mapped Statement对象中，所有将id 称为statement 的id
+			#{}表示一个占位符号
+			#{id}:其中的id表示接收输入的参数，参数名为id,如果输入的参数名为简单类型，#{}中的参数名可以任意，可以value 也可以其他
+			resultType:指定SQL输出结果的所映射的java 对象类型，select指定resultType 表示将单条记录映射成的java 对象
+		 -->
+		 
+		 <select id="findUserById" parameterType="int" resultType="cn.itcast.mybatis.po.User">
+		 	SELECT * FROM USER WHERE id=#{id}
+		 </select>
+		 <!-- 根据用户名称模糊查询用户信息，可能返回多条
+		 	resultType:指定就是单条记录所映射的java对象类型
+		 	${}:表示拼接sql 语句，将接收到的参数内容不加任何修饰拼接在sql 中
+		  -->
+		 <select id="findUserByName" parameterType="java.lang.String" resultType="cn.itcast.mybatis.po.User">
+		 	 <!--  select * from user where username LIKE '%${value}%'  -->
+		 	select * from user where username LIKE #{value}
+		 </select>	
+		 <!-- 添加用户
+		 	parameterType:指定输入参数类型时pojo(包括用户信息)
+		 	#{}中指定pojo的属性名，接收到pojo 对象的属性值  ，mybatis 通过OGNL获取对象的属性值
+		  -->
+		  <insert id="insertUser" parameterType="cn.itcast.mybatis.po.User">
+		  	insert into user(id,username,birthday,sex,address) value(#{id},#{username},#{birthday},#{sex},#{address})
+		  </insert>
+</mapper>
