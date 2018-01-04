@@ -10,22 +10,22 @@ import java.util.Date;
 public class User {
 	
 	// 属性名和数据库的字段对应
-	private int id;
-	private String username;
+	private int id_;
+	private String username_;
 	private String sex;
 	private Date birthday;
 	private String address;
 	public int getId() {
-		return id;
+		return id_;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.id_ = id;
 	}
 	public String getUsername() {
-		return username;
+		return username_;
 	}
 	public void setUsername(String username) {
-		this.username = username;
+		this.username_ = username;
 	}
 	public String getSex() {
 		return sex;
@@ -48,7 +48,7 @@ public class User {
 	
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", sex=" + sex + ", birthday=" + birthday + ", address="
+		return "User [id=" + id_ + ", username=" + username_ + ", sex=" + sex + ", birthday=" + birthday + ", address="
 				+ address + ", getId()=" + getId() + ", getUsername()=" + getUsername() + ", getSex()=" + getSex()
 				+ ", getBirthday()=" + getBirthday() + ", getAddress()=" + getAddress() + "]";
 	}

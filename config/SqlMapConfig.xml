@@ -3,6 +3,33 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+<!-- 加载属性文件 -->
+
+	<!-- properties 特性：
+			注意：mybatis 将按照下面的顺序来加载属性：
+				1，在properties 元素体内定义的属性首次被读取
+				2，然后会读取propreties 元素中的resource 或url（本地文件的绝对路径）加载的属性，它会覆盖已读取的同名属性
+				3，最后读取parameterType 传递的属性，它会覆盖已读取的同名属性
+				建议：
+				不要在properties 元素内添加任何属性值，只将属性值定义在properties属性文件中
+				在properties 文件中定义属性名要有一定的特殊性，若：xxx.xxx.xxx
+		 -->
+	<properties resource="db.properties">
+		<!-- 也可也在 properties 里面加载属性文件,但是一般不这么用，优先级太低 -->
+		<!--<propertie name="" value=""></propertie>  -->
+	</properties>
+	<!-- 别名定义
+		type:类型的路径
+		alias：别名
+	 -->
+	<typeAliases>
+		<!--<typeAlias type="cn.itcast.mybatis.po.User" alias="user"/>  -->
+		<!-- 批量别名定义 
+			指定报名：mybatis 自动扫描包中的po类，自动定义别名，别名就是类名，（首字母大写或小写都可以）（一般首字母小写）
+			总结：这种批量别名定义的方式更常用一些
+		-->
+		<package name="cn.itcast.mybatis.po"/>
+	</typeAliases>
     <!-- 和spring 整合后，environments 配置将废除-->
     <environments default="development">
         <!--使用jdbc 事物管理，事务控制由mybatis-->
@@ -10,18 +37,37 @@
         <transactionManager type="JDBC"/>
         <!--数据库连接池，由mybatis 管理-->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useUnicode=true&amp;characterEncoding=UTF-8"/>
-                <property name="username" value="root"/>
-                <property name="password" value="123"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments> 
     <!--add by jarry at 2017-12-28-->
     <!--加载映射文件-->
     <mappers>
-  		<mapper resource="sqlmap/User.xml"/>
+    <!-- 第一种方式：通过resource 加载单个映射文件 （一次只能加载一个映射文件）-->
+  		<!--<mapper resource="sqlmap/User.xml"/>
+  		<mapper resource="mapper/UserMapper.xml"/>  -->
+  		<!--第二种方式： 通过mapper 接口加载单个映射文件
+  			遵循一些规范：需要将mapper接口类名和mapper.xml 映射文件名称保持一致，且在一个目录中，
+  			上边规范的前提是：使用的是mapper代理方法
+  		 -->
+  		 
+  		 <!--  <mapper class="cn.itcast.mybatis.mapper.UserMapper"/>-->
+  		 
+  		 <!-- 第三种方式：批量加载mapper(多个mapper)
+  		 	指定mapper接口的包名，mybatis 自动扫描包下边所有mapper接口进行加载
+  		  -->
+  		  <package name="cn.itcast.mybatis.mapper"/>
     </mappers>
-
+    
+	<!-- 注意：
+		将数据库连接参数单独配置在db.properties 中，只需要在SqlMapConfig.xml中加载db.properties的属性值，
+		在SqlMapConfig.xml中就不需要对数据库连接参数硬 编码了
+		将数据库连接参数只配置在db.properties中，原因 ：方便对参数进行统一管理，其他xml可以引用该db.properties
+		
+	 -->
 
 </configuration>
