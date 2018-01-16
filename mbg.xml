@@ -7,11 +7,14 @@
     <!--<classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" />-->
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
         <!--数据库连接信息／-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/ssm_crud"
                         userId="root"
-                        password="root">
+                        password="123">
         </jdbcConnection>
 
         <javaTypeResolver >
@@ -30,7 +33,7 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="jarry.atguigu.crud.dao"  targetProject=".\src\main\java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
-        <!--指定每个表的生成策略-->
+        <!--table 指定每个表的生成策略-->
         <table tableName="tbl_emp" domainObjectName="Employee"></table>
         <table tableName="tnl_dept" domainObjectName="Department" > </table>
 
