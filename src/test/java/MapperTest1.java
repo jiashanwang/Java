@@ -12,6 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.UUID;
+import java.util.concurrent.Executor;
 
 /**
  * 测试dao 层的工作
@@ -39,22 +40,24 @@ public class MapperTest1 {
 //        // 2.从容器中获取mapper
 //        DepartmentMapper bean = ioc.getBean(DepartmentMapper.class);
         // 1.插入几个部门
-        departmentMapper.insertSelective(new Department(null,"开发部"));
+        /*departmentMapper.insertSelective(new Department(null,"开发部"));
         departmentMapper.insertSelective(new Department(null,"测试部"));
-        departmentMapper.insertSelective(new Department(null,"工程部"));
+        departmentMapper.insertSelective(new Department(null,"工程部"));*/
 //        employeeMapper.insertSelective(new Employee(null,"jerry","M","jerry@guigu.com",1));
         //3 ,批量插入多个员工，批量：使用可以执行批量操作的sqlSession
 //        for(int ){
 //            employeeMapper.insertSelective(new Employee(null,"jerry","M","jerry@guigu.com",1));
 
 //        }
-         EmployeeMapper mapper = sqlSession.getMapper(EmployeeMapper.class);
-         for(int i=0;i<10;i++){
+        EmployeeMapper mapper = sqlSession.getMapper(EmployeeMapper.class);
+         long start=System.currentTimeMillis();
+         for(int i=0;i<1000;i++){
              String uuid = UUID.randomUUID().toString().substring(0,5) + i;
-             System.out.println(UUID.randomUUID());
+//             System.out.println(UUID.randomUUID());
              mapper.insertSelective(new Employee(null,uuid,"M",uuid+"@atguigu.com",1));
          };
-//        for(int i=0;i<1000;i++){
+//        System.out.println("插入完成耗時："+(System.currentTimeMillis()-start)+"毫秒");
+//        for(int i=4013;i<5014;i++){
 //            mapper.deleteByPrimaryKey(i);
 //        }
         System.out.println("批量插入完成！");

@@ -22,9 +22,9 @@ public interface EmployeeMapper {
 
     List<Employee> selectByExampleWithDept(EmployeeExample example);
 
-    Employee selectByExampleWithDept(Integer empId);
+//    Employee selectByExampleWithDept(Integer empId);
 
-    List<Employee> selectByPrimaryKeyWithDept(EmployeeExample example);
+//    List<Employee> selectByPrimaryKeyWithDept(EmployeeExample example);
 
     Employee selectByPrimaryKeyWithDept(Integer empId);
 
