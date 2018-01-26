@@ -12,42 +12,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68d987e0-0b88-435e-a4e3-3a2a4a010f99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Msg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/DepartmentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/EmployeeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/DepartmentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/EmployeeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MvcTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/FileDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/delete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/rename.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/判断功能.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/向硬盘写入数据.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/基本获取功能.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/批量修改文件名称.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案例2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案列1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/递归.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/高级获取功能.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/Department.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$Criteria.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$Criterion.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/DepartmentExample.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/Employee.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$Criteria.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$Criterion.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$Criterion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/bean/EmployeeExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/dao/DepartmentMapper.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/dao/DepartmentMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/dao/EmployeeMapper.class" afterPath="$PROJECT_DIR$/target/classes/jarry/atguigu/crud/dao/EmployeeMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MapperTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/MapperTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM.iml" afterPath="$PROJECT_DIR$/SSM.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MapperTest1.java" afterPath="$PROJECT_DIR$/src/test/java/MapperTest1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/EmployeeController.java">
+      <file leaf-file-name="rename.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/rename.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="65" column="45" lean-forward="false" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="310">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Employee.java">
+      <file leaf-file-name="基本获取功能.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/基本获取功能.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
+            <state relative-caret-position="219">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/EmployeeService.java">
+      <file leaf-file-name="高级获取功能.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/高级获取功能.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="378">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,36 +101,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="案列1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案列1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="403" column="26" lean-forward="false" selection-start-line="403" selection-start-column="26" selection-end-line="403" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
-                <marker date="1516449695351" expanded="false" signature="4756:4763" ph="»" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/EmployeeExample.java">
+      <file leaf-file-name="案例2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案例2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2163">
-              <caret line="124" column="9" lean-forward="false" selection-start-line="124" selection-start-column="9" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="批量修改文件名称.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/批量修改文件名称.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="递归.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/递归.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="向硬盘写入数据.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/向硬盘写入数据.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
-                <element signature="n#filter#0;n#web-app#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilenameFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/officalSoftware/java/jdk1.8.0_144/src.zip!/java/io/FilenameFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,6 +185,8 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="AnnotationType" />
         <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -216,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/test/java/MapperTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/MvcTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dispatcherServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" />
@@ -230,6 +265,23 @@
         <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/MvcTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/FileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/delete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/rename.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/判断功能.java" />
+        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/基本获取功能.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/高级获取功能.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案列1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/NameFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/WangJS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案例2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/批量修改文件名称.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/递归.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/向硬盘写入数据.java" />
       </list>
     </option>
   </component>
@@ -296,7 +348,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,27 +386,36 @@
               <item name="MybatisDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="MybatisDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MybatisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -364,6 +424,7 @@
     <property name="project.structure.side.proportion" value="0.24827586" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="SearchEverywhereHistoryKey" value="DefaultShellCallback &#9;PSI&#9;JAVA://org.mybatis.generator.internal.DefaultShellCallback" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -400,114 +461,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.SSM">
-    <configuration name="MapperTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SSM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapperTest1" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MapperTest1.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="SSM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapperTest1" />
-      <option name="METHOD_NAME" value="testCRUD" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.向硬盘写入数据">
+    <configuration name="向硬盘写入数据" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="jarry.atguigu.crud.test1.*" />
+          <option name="PATTERN" value="jarry.atguigu.crud.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SSM" />
+      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.utils.向硬盘写入数据" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="jarry.atguigu.crud.test1" />
-      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.test1.MapperTest" />
-      <option name="METHOD_NAME" value="testCRUD" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MvcTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="SSM" />
+      <envs />
+    </configuration>
+    <configuration name="案列1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jarry.atguigu.crud.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.utils.案列1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MvcTest" />
-      <option name="METHOD_NAME" value="testPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="SSM" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="SSM [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="package" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration name="基本获取功能" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jarry.atguigu.crud.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.utils.基本获取功能" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SSM" />
+      <envs />
+    </configuration>
+    <configuration name="案例2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jarry.atguigu.crud.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.utils.案例2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SSM" />
+      <envs />
+    </configuration>
+    <configuration name="高级获取功能" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="jarry.atguigu.crud.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="jarry.atguigu.crud.utils.高级获取功能" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SSM" />
+      <envs />
     </configuration>
     <configuration name="SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -726,19 +774,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.SSM" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MapperTest.testCRUD" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MapperTest1.testCRUD" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MapperTest1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MvcTest.testPage" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.SSM [package]" />
+      <item index="1" class="java.lang.String" itemvalue="Application.基本获取功能" />
+      <item index="2" class="java.lang.String" itemvalue="Application.高级获取功能" />
+      <item index="3" class="java.lang.String" itemvalue="Application.案列1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.案例2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.向硬盘写入数据" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.SSM [package]" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MvcTest.testPage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MapperTest1.testCRUD" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MapperTest1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MapperTest.testCRUD" />
+        <item index="0" class="java.lang.String" itemvalue="Application.向硬盘写入数据" />
+        <item index="1" class="java.lang.String" itemvalue="Application.案例2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.案列1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.高级获取功能" />
+        <item index="4" class="java.lang.String" itemvalue="Application.基本获取功能" />
       </list>
     </recent_temporary>
   </component>
@@ -768,7 +816,10 @@
       <workItem from="1516264631096" duration="5256000" />
       <workItem from="1516327241226" duration="3536000" />
       <workItem from="1516432325337" duration="15850000" />
-      <workItem from="1516584228014" duration="23000" />
+      <workItem from="1516584228014" duration="1239000" />
+      <workItem from="1516762936535" duration="2779000" />
+      <workItem from="1516932918442" duration="709000" />
+      <workItem from="1516937484116" duration="16918000" />
     </task>
     <servers />
   </component>
@@ -805,7 +856,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84528000" />
+    <option name="totallyTimeSpent" value="106150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -821,8 +872,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.47761193" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19565217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40326086" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -831,7 +883,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -840,7 +892,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.52238804" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -888,7 +939,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -897,122 +948,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="93" lean-forward="true" selection-start-line="45" selection-start-column="93" selection-end-line="45" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mbg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/test1/MBGTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/DepartmentExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/EmployeeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6741">
-          <caret line="321" column="46" lean-forward="true" selection-start-line="321" selection-start-column="46" selection-end-line="321" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/test1/MBGTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/test/MapperTestTest.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/test1/MapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContextConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1041,33 +976,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mbg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MvcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MapperTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1131,41 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1199,32 +1077,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="26" column="99" lean-forward="false" selection-start-line="26" selection-start-column="99" selection-end-line="26" selection-end-column="99" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="45" lean-forward="false" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1246,6 +1104,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="347" column="86" lean-forward="false" selection-start-line="347" selection-start-column="86" selection-end-line="347" selection-end-column="86" />
+          <folding>
+            <marker date="1516449695351" expanded="false" signature="4756:4763" ph="»" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/dao/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="65" column="45" lean-forward="false" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/bean/EmployeeExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2163">
@@ -1254,12 +1182,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MapperTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="403" column="26" lean-forward="false" selection-start-line="403" selection-start-column="26" selection-end-line="403" selection-end-column="26" />
+        <state relative-caret-position="441">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/internal/DefaultShellCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MvcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileDemo.java" />
+    <entry file="file://$PROJECT_DIR$/mbg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/FileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <marker date="1516449695351" expanded="false" signature="4756:4763" ph="»" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/officalSoftware/java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="792" column="26" lean-forward="true" selection-start-line="792" selection-start-column="26" selection-end-line="792" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/判断功能.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/基本获取功能.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/高级获取功能.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案列1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/officalSoftware/java/jdk1.8.0_144/src.zip!/java/io/FilenameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/NameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/WangJS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/rename.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/案例2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/递归.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/批量修改文件名称.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jarry/atguigu/crud/utils/向硬盘写入数据.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
